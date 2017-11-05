@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/zshang/Pycharm/log_dae/model/dae.model"
+all_model_checkpoint_paths: "/home/zshang/Pycharm/log_dae/model/dae.model"
