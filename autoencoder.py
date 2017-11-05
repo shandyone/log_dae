@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # from __future__ import absolute_import
-# from __future__ import division
+from __future__ import division
 # from __future__ import print_function
 
 
@@ -17,7 +17,7 @@ batch_size = 10
 display_step = 1
 examples_to_show = 10
 time_step = 30
-corruption_level=0.5
+corruption_level=0.6
 
 def get_data():#if time_step is too long, the batch_index will be none
     #data = read_csv.data
@@ -32,10 +32,12 @@ def get_data():#if time_step is too long, the batch_index will be none
         train_x.append(x.tolist())
     return train_x,batch_index
 
+def xavier_init(fan_in,fan_out,constant=1):
+    low = -constant * np.sqrt(6.0 / (fan_in + fan_out))
+    high = constant * np.sqrt(6.0 / (fan_in + fan_out))
+    return tf.random_uniform((fan_in, fan_out), minval=low, maxval=high, dtype=tf.float32)
+
 # Network Parameters
-# n_hidden_1 = 256 # 1st layer num features
-# n_hidden_2 = 128 # 2nd layer num features
-# n_input = 784 # MNIST data input (img shape: 28*28)
 
 n_hidden_1 = 15 # 1st layer num features
 n_hidden_2 = 8 # 2nd layer num features
@@ -58,6 +60,22 @@ biases = {
     'decoder_b1': tf.Variable(tf.random_normal([n_hidden_1])),
     'decoder_b2': tf.Variable(tf.random_normal([n_input])),
 }
+
+# weights = {
+#     'encoder_h1': tf.Variable(xavier_init(n_input, n_hidden_1)),
+#     'encoder_h2': tf.Variable(tf.random_normal([n_hidden_1, n_hidden_2])),
+#     'decoder_h1': tf.Variable(tf.random_normal([n_hidden_2, n_hidden_1])),
+#     'decoder_h2': tf.Variable(tf.random_normal([n_hidden_1, n_input])),
+#     # 'encoder_h2': tf.Variable(tf.zeros([n_hidden_1, n_hidden_2])),
+#     # 'decoder_h1': tf.Variable(tf.zeros([n_hidden_2, n_hidden_1])),
+#     # 'decoder_h2': tf.Variable(tf.zeros([n_hidden_1, n_input])),
+# }
+# biases = {
+#     'encoder_b1': tf.Variable(tf.random_normal([n_hidden_1])),
+#     'encoder_b2': tf.Variable(tf.random_normal([n_hidden_2])),
+#     'decoder_b1': tf.Variable(tf.random_normal([n_hidden_1])),
+#     'decoder_b2': tf.Variable(tf.random_normal([n_input])),
+# }
 
 def encoder(x):
     mask_x = x * mask
@@ -95,12 +113,14 @@ def train():
 
             if epoch % display_step == 0:
                 print "Epoch:", '%04d' % (epoch+1),"cost=", "{:.9f}".format(c)
-        saver.save(sess, '/home/zshang/Pycharm/log_dae/model/dae.model')
+        #saver.save(sess, '/home/zshang/Pycharm/log_dae/model/dae.model')
+        saver.save(sess, 'model/dae.model')
         print "Optimization Finished!"
 
 def test():
     with tf.Session() as sess:
-        module_file = tf.train.latest_checkpoint('/home/zshang/Pycharm/log_dae/model')
+        #module_file = tf.train.latest_checkpoint('/home/zshang/Pycharm/log_dae/model')
+        module_file = tf.train.latest_checkpoint('model')
         saver.restore(sess, module_file)
         data_test=np.array(data[2]).reshape([-1,time_step])
         #mask_np = np.random.binomial(1, 1 - corruption_level, data_test.shape)
@@ -109,17 +129,18 @@ def test():
 
     data_test_re = (data_test.reshape([-1]))*(data_max-data_min)+data_min
     ende = (encode_decode.reshape([-1]))*(data_max-data_min)+data_min
-    print data_test_re
-    print ende
+    #print data_test_re
+    #print ende
+    print np.array(data).shape
 
     plt.figure()
     plt.plot(data_test_re,c='b')
-    plt.plot(ende,c='y')
+    plt.plot(ende,c='r')
     plt.savefig('diff.png')
     plt.show()
 
 if __name__ == '__main__':
-    #train()
+    train()
     test()
 
 # f, a = plt.subplots(2, 10, figsize=(10, 2))
