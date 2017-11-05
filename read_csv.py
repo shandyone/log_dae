@@ -2,6 +2,7 @@
 from __future__ import division
 import pandas as pd
 import numpy as np
+import pywavelet
 
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -21,6 +22,14 @@ import tensorflow as tf
 # normalize_data_test=(data_test-np.mean(data_test))/np.std(data_test)  #normalization
 # normalize_data_test=normalize_data_test[:,np.newaxis]       #add axis
 
+#-----------------------stock-------------------
+# f=open('dataset.csv')
+# df=pd.read_csv(f)     #read data
+# data=np.array(df['price'])   #get the data
+# data=data[::-1]
+# train_end,test_begin=5800,5800
+
+#-----------------------log-insight---------------
 f1=open('log-insight-2016.csv')
 f2=open('log-insight-2017.csv')
 df1=pd.read_csv(f1)
@@ -35,10 +44,10 @@ data1=data1[::-1]
 data2=np.array(df2['num'])
 data2=data2[::-1]
 data=np.hstack((data1,data2))
+data = pywavelet.wavelet(data).wt()
 
 #normalize_data = (data-np.mean(data))/np.std(data)
 normalize_data = (data-np.min(data))/(np.max(data)-np.min(data))
 data_max = np.max(data)
 data_min = np.min(data)
-print normalize_data
 #print normalize_data

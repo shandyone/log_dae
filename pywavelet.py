@@ -2,12 +2,12 @@
 import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
-import read_csv
+#import read_csv
 import pywt  # python 小波变换的包
 
 # 取数据
-data = read_csv.data
-index_list = np.array(data)
+# data = read_csv.data
+# data = np.array(data)
 
 class wavelet:
     def __init__(self,index_list, wavefunc='db4', lv=4, m=3, n=4, plot=True):# 默认小波函数为db4, 分解层数为4， 选出小波层数为1-4层
@@ -20,7 +20,7 @@ class wavelet:
 
     def wt(self):  # 打包为函数，方便调节参数。  lv为分解层数；data为最后保存的dataframe便于作图；index_list为待处理序列；wavefunc为选取的小波函数；m,n则选择了进行阈值处理的小波系数层数
         # 分解
-        coeff = pywt.wavedec(index_list, self.wavefunc, mode='sym', level=self.lv)  # 按 level 层分解，使用pywt包进行计算， cAn是尺度系数 cDn为小波系数
+        coeff = pywt.wavedec(self.index_list, self.wavefunc, mode='sym', level=self.lv)  # 按 level 层分解，使用pywt包进行计算， cAn是尺度系数 cDn为小波系数
         sgn = lambda x: 1 if x > 0 else -1 if x < 0 else 0  # sgn函数
         # 去噪过程
         for i in range(self.m, self.n + 1):  # 选取小波系数层数为 m~n层，尺度系数不需要处理
@@ -35,14 +35,14 @@ class wavelet:
         denoised_index = pywt.waverec(coeff, self.wavefunc)
         if self.plot == True:
             plt.figure()
-            plt.plot(index_list)
+            plt.plot(self.index_list)
             plt.plot(denoised_index)
             plt.show()
         return denoised_index
 
 
-if __name__=='__main__':
-    wt = wavelet(index_list).wt()
+# if __name__=='__main__':
+#     wt = wavelet(data).wt()
 
 # 函数打包
 # def wt(index_list, wavefunc = 'db4', lv = 4, m = 3, n = 4):  # 打包为函数，方便调节参数。  lv为分解层数；data为最后保存的dataframe便于作图；index_list为待处理序列；wavefunc为选取的小波函数；m,n则选择了进行阈值处理的小波系数层数

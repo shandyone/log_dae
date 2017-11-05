@@ -136,7 +136,7 @@ def test():
     plt.figure()
     plt.plot(data_test_re,c='b')
     plt.plot(ende,c='r')
-    plt.savefig('diff.png')
+    plt.savefig('pic/diff.png')
     plt.show()
 
 if __name__ == '__main__':

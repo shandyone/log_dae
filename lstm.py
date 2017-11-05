@@ -3,38 +3,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
+import read_csv
 
 #！！！！！！！！！！！！！！！！！import data！！！！！！！！！！！！！！！！！！！！！！
-# f=open('dataset.csv')
-# df=pd.read_csv(f)     #read data
-# data=np.array(df['price'])   #get the data
-# data=data[::-1]
-# train_end,test_begin=5800,5800
-
-f1=open('log-insight-2016.csv')
-f2=open('log-insight-2017.csv')
-df1=pd.read_csv(f1)
-df2=pd.read_csv(f2)
-data1=np.array(df1['num'])
-data1=data1[::-1]
-print(len(data1))
-plt.figure()
-plt.plot(range(len(data1)),data1)
-plt.savefig('data1.png')
-plt.show()
-
-data2=np.array(df2['num'])
-data2=data2[::-1]
-data=np.hstack((data1,data2))
+data = read_csv.data
 train_end,test_begin=500,400
-
-# print(len(data))
-# plt.figure()
-# #plt.ion()
-# plt.plot(range(len(data)),data)
-# plt.savefig('data.jpg')
-# #plt.pause(5)
-# plt.show()
 
 #--------------  generate training dataset and test dataset------------
 time_step=30      #time step
@@ -43,8 +16,10 @@ batch_size=60
 input_size=1
 output_size=1
 lr=0.0006         #learning rate
-predict_day=1
+predict_day=7
 num_layers=4
+epoch=4000
+
 
 #-----------------------------train data------------------------------
 def train_data():
@@ -62,6 +37,7 @@ def train_data():
         train_y.append(y1.tolist())
     batch_index.append((len(normalized_train_data)-time_step-predict_day))
     return train_x,train_y,batch_index
+
 
 #----------------------------test data--------------------------------
 def test_data():
@@ -95,7 +71,6 @@ biases={
         }
 
 
-
 #！！！！！！！！！！！！！！！！！！difine nn！！！！！！！！！！！！！！！！！！
 def lstm(batch):      #para
     w_in=weights['in']
@@ -116,6 +91,8 @@ def lstm(batch):      #para
     pred=tf.matmul(output,w_out)+b_out
     return pred,final_states
 
+
+
 #！！！！！！！！！！！！！！！！！！train model！！！！！！！！！！！！！！！！！！
 def train_lstm():
     global batch_size
@@ -134,7 +111,7 @@ def train_lstm():
         # except:
         #     sess.run(tf.global_variables_initializer())
         sess.run(tf.global_variables_initializer())
-        for i in range(4000):
+        for i in range(epoch):
             for step in range(len(batch_index)-2):
                 X_train=np.array(train_x[batch_index[step]:batch_index[step+1]])[:,:,np.newaxis]#.reshape([-1,time_step,input_size])
                 Y_train=np.array(train_y[batch_index[step]:batch_index[step+1]])[:,:,np.newaxis]#.reshape([-1,time_step,output_size])
@@ -145,7 +122,7 @@ def train_lstm():
                 #print ("save_model:",saver.save(sess,'./model/stock2.model',global_step=i))
                 print "save_model:", saver.save(sess, 'model_lstm/lstm.model', global_step=i)
 
-
+#！！！！！！！！！！！！！！！！！！prediction model！！！！！！！！！！！！！！！！！！
 def prediction():
     test_x,test_y,mean,std=test_data()
     with tf.variable_scope("lstm", reuse=True) as scope2:
@@ -174,14 +151,17 @@ def prediction():
         test_predict=np.array(test_predict)*std+mean
         plt.figure()
 
+
         plt.plot(list(range(len(test_predict))), test_predict, color='b')
         plt.plot(list(range(len(test_y))), test_y, color='r')
-        plt.savefig('lstm.png')
+        plt.savefig('pic/lstm.png')
         plt.show()
 
 if __name__ == "__main__":
     train_lstm()
     prediction()
+
+
 '''
 def prediction():
     train_test=tf.constant(1)
