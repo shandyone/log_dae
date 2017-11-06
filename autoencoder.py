@@ -38,7 +38,6 @@ def xavier_init(fan_in,fan_out,constant=1):
     return tf.random_uniform((fan_in, fan_out), minval=low, maxval=high, dtype=tf.float32)
 
 # Network Parameters
-
 n_hidden_1 = 15 # 1st layer num features
 n_hidden_2 = 8 # 2nd layer num features
 n_input = 30 # data input (img shape: 28*28)

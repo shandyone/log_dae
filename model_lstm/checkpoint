@@ -1,6 +1,2 @@
-model_checkpoint_path: "lstm.model-1999"
-all_model_checkpoint_paths: "lstm.model-1919"
-all_model_checkpoint_paths: "lstm.model-1939"
-all_model_checkpoint_paths: "lstm.model-1959"
-all_model_checkpoint_paths: "lstm.model-1979"
-all_model_checkpoint_paths: "lstm.model-1999"
+model_checkpoint_path: "lstm.model-0"
+all_model_checkpoint_paths: "lstm.model-0"

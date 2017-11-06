@@ -15,7 +15,7 @@ rnn_unit=100       #hidden layer units
 batch_size=60
 input_size=1
 output_size=1
-lr=0.0006         #learning rate
+#lr=0.0006         #learning rate;we choose the decay learning rate instead of constant lr
 predict_day=1
 num_layers=4
 epoch=2000
@@ -86,10 +86,14 @@ def lstm(batch):      #para
     b_in=biases['in']
     input=tf.reshape(X,[-1,input_size])
     input_rnn=tf.matmul(input,w_in)+b_in
+    #input_rnn = tf.contrib.layers.batch_norm(input_rnn, center=True, scale=True, is_training=True)# batch normalization
+    input_rnn = tf.layers.batch_normalization(input_rnn)
     input_rnn=tf.reshape(input_rnn,[-1,time_step,rnn_unit])
 
-    cell=tf.nn.rnn_cell.BasicLSTMCell(rnn_unit)
-    cell=tf.nn.rnn_cell.DropoutWrapper(cell,output_keep_prob=0.5)
+    #cell=tf.nn.rnn_cell.BasicLSTMCell(rnn_unit)
+    #cell=tf.contrib.layers.dropout(cell,keep_prob=0.5)
+    cell=tf.contrib.rnn.BasicLSTMCell(rnn_unit)
+    cell = tf.nn.rnn_cell.DropoutWrapper(cell, output_keep_prob=0.5)
     cell=tf.contrib.rnn.MultiRNNCell([cell]*num_layers)#num_layers LSTM layers
 
     init_state=cell.zero_state(batch,dtype=tf.float32)
@@ -101,18 +105,28 @@ def lstm(batch):      #para
     return pred,final_states
 
 
-
 #---------------------train model------------------
 def train_lstm():
     global batch_size
+
     train_x,train_y,batch_index=train_data()
     with tf.variable_scope("lstm") as scope1:
         pred,final_states=lstm(batch_size)
+
     #loss function
     sess_loss=tf.reduce_mean(tf.square(tf.reshape(pred,[-1])-tf.reshape(Y, [-1])))
     tf.add_to_collection("losses",sess_loss)
     loss = tf.add_n(tf.get_collection("losses"))
-    train_op=tf.train.AdamOptimizer(lr).minimize(loss)
+
+    #decay_learning rate
+    #lr = 0.0006
+    global_step = tf.Variable(tf.constant(0))
+    init_global_rate = 0.006
+    lr = tf.train.exponential_decay(init_global_rate,global_step=global_step,decay_steps=5,decay_rate=0.9,staircase=True)
+
+    update_ops =  tf.get_collection(tf.GraphKeys.UPDATE_OPS)
+    with tf.control_dependencies(update_ops):
+        train_op=tf.train.AdamOptimizer(lr).minimize(loss)
     saver=tf.train.Saver(tf.global_variables())
 
     with tf.Session() as sess:
@@ -132,7 +146,7 @@ def train_lstm():
             print (i,loss_)
             if (i+1) % 20==0:
                 writer = tf.summary.FileWriter("logs/", sess.graph)
-                print "save_model:", saver.save(sess, 'model_lstm/lstm.model', global_step=i)
+                print "save_model:", saver.save(sess, 'model_lstm/lstm.model', global_step=global_step)
 
 
 
