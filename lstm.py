@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import read_csv
 
-#！！！！！！！！！！！！！！！！！import data！！！！！！！！！！！！！！！！！！！！！！
+#--------------------import data----------------------------
 data = read_csv.data
 train_end,test_begin=500,400
 
@@ -19,6 +19,13 @@ lr=0.0006         #learning rate
 predict_day=1
 num_layers=4
 epoch=2000
+lambda_var=0.001  #l2 regularizer
+
+#----------------------------get L2 regularition weight-------------------------
+def get_weight(shape, lambda_var):
+    var = tf.Variable(tf.random_normal(shape),dtype=tf.float32)
+    tf.add_to_collection("losses", tf.contrib.layers.l2_regularizer(lambda_var)(var))
+    return var
 
 #-----------------------------train data------------------------------
 def train_data():
@@ -61,16 +68,19 @@ X=tf.placeholder(tf.float32, [None,time_step,input_size])    #input
 Y=tf.placeholder(tf.float32, [None,time_step,output_size])   #label
 
 weights={
-         'in':tf.Variable(tf.random_normal([input_size,rnn_unit])),
-         'out':tf.Variable(tf.random_normal([rnn_unit,1]))
+         # 'in':tf.Variable(tf.random_normal([input_size,rnn_unit])),
+         # 'out':tf.Variable(tf.random_normal([rnn_unit,1]))
+         'in': get_weight([input_size, rnn_unit],lambda_var),
+         'out': get_weight([rnn_unit, 1],lambda_var)
          }
+
 biases={
         'in':tf.Variable(tf.constant(0.1,shape=[rnn_unit,])),
         'out':tf.Variable(tf.constant(0.1,shape=[1,]))
         }
 
 
-#！！！！！！！！！！！！！！！！！！difine nn！！！！！！！！！！！！！！！！！！
+#------------------difine nn--------------------------
 def lstm(batch):      #para
     w_in=weights['in']
     b_in=biases['in']
@@ -92,14 +102,16 @@ def lstm(batch):      #para
 
 
 
-#！！！！！！！！！！！！！！！！！！train model！！！！！！！！！！！！！！！！！！
+#---------------------train model------------------
 def train_lstm():
     global batch_size
     train_x,train_y,batch_index=train_data()
     with tf.variable_scope("lstm") as scope1:
         pred,final_states=lstm(batch_size)
     #loss function
-    loss=tf.reduce_mean(tf.square(tf.reshape(pred,[-1])-tf.reshape(Y, [-1])))
+    sess_loss=tf.reduce_mean(tf.square(tf.reshape(pred,[-1])-tf.reshape(Y, [-1])))
+    tf.add_to_collection("losses",sess_loss)
+    loss = tf.add_n(tf.get_collection("losses"))
     train_op=tf.train.AdamOptimizer(lr).minimize(loss)
     saver=tf.train.Saver(tf.global_variables())
 
@@ -121,6 +133,8 @@ def train_lstm():
             if (i+1) % 20==0:
                 writer = tf.summary.FileWriter("logs/", sess.graph)
                 print "save_model:", saver.save(sess, 'model_lstm/lstm.model', global_step=i)
+
+
 
 #！！！！！！！！！！！！！！！！！！prediction model！！！！！！！！！！！！！！！！！！
 def prediction():
@@ -160,34 +174,3 @@ def prediction():
 if __name__ == "__main__":
     train_lstm()
     prediction()
-
-
-'''
-def prediction():
-    train_test=tf.constant(1)
-    with tf.variable_scope("lstm", reuse=True) as scope2:
-        pred,final_states=lstm(1,train_test)      #just input[1,time_step,input_size]
-    saver=tf.train.Saver(tf.global_variables())
-    with tf.Session() as sess:
-
-        #base_path='~/PycharmProjects/stock'
-        #module_file = tf.train.latest_checkpoint(base_path+'checkpoint')
-        #saver.restore(sess, module_file)
-        saver.restore(sess,'stock.model')
-
-        #the last line is the training dataset。shape=[1,time_step,input_size]
-        prev_seq=train_x[-1]
-        predict=[]
-
-        #get 100 results
-        for i in range(100):
-            next_seq=sess.run(pred,feed_dict={X:[prev_seq]})
-            predict.append(next_seq[-1])
-            prev_seq=np.vstack((prev_seq[1:],next_seq[-1]))
-
-        plt.figure()
-        plt.plot(list(range(len(normalize_data))), normalize_data, color='b')
-        plt.plot(list(range(len(normalize_data), len(normalize_data) + len(predict))), predict, color='r')
-        plt.show()
-prediction()
-'''

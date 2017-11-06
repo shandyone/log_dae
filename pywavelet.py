@@ -10,7 +10,7 @@ import pywt  # python 小波变换的包
 # data = np.array(data)
 
 class wavelet:
-    def __init__(self,index_list, wavefunc='db4', lv=4, m=3, n=4, plot=True):# 默认小波函数为db4, 分解层数为4， 选出小波层数为1-4层
+    def __init__(self,index_list, wavefunc='db4', lv=4, m=2, n=4, plot=True):# 默认小波函数为db4, 分解层数为4， 选出小波层数为1-4层
         self.index_list = index_list
         self.wavefunc = wavefunc
         self.lv = lv

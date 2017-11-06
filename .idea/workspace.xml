@@ -2,6 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ff925d-a84e-45b1-b33d-73365d9a3b16" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895529.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895529.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895535.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895535.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895541.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895541.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895546.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895546.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895552.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895552.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895558.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895558.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895564.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895564.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895570.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895570.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895576.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895576.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895582.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895582.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895588.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895588.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895594.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895594.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895600.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895600.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895606.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895606.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895611.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895611.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895617.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895617.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895623.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895623.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895629.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895629.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895635.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895635.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895641.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895641.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895647.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895647.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895653.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895653.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895659.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895659.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895664.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895664.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895670.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895670.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895676.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895676.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895682.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895682.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895688.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895688.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895694.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895694.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895700.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895700.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895706.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895706.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895712.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895712.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895718.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895718.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895724.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895724.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895731.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895731.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895736.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895736.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895742.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895742.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895748.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895748.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895754.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895754.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895760.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895760.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895766.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895766.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895772.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895772.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895777.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895777.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895783.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895783.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895789.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895789.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895795.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895795.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895801.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895801.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895807.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895807.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895813.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895813.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895818.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895818.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895824.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895824.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895830.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895830.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895836.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895836.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895842.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895842.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895848.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895848.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895854.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895854.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895860.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895860.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895865.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895865.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895871.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895871.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895877.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895877.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895883.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895883.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895889.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895889.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895895.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895895.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895901.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895901.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895906.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895906.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895912.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895912.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895918.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895918.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895924.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895924.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895930.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895930.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895936.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895936.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895942.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895942.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895947.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895947.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895953.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895953.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895959.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895959.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895965.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895965.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895971.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895971.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895977.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895977.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895983.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895983.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895989.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895989.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509895994.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509895994.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896000.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896000.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896006.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896006.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896012.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896012.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896018.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896018.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896024.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896024.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896030.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896030.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896035.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896035.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896041.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896041.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896047.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896047.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896053.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896053.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896059.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896059.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896065.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896065.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896071.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896071.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896077.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896077.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896082.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896082.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896088.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896088.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896094.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896094.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896100.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896100.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896106.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896106.shandyone-MS-7982" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1509896112.shandyone-MS-7982" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1509896112.shandyone-MS-7982" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-1919.data-00000-of-00001" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-1919.data-00000-of-00001" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-1919.index" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-1919.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-1919.meta" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-1919.meta" />
@@ -17,24 +117,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-1999.data-00000-of-00001" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-1999.data-00000-of-00001" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-1999.index" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-1999.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-1999.meta" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-1999.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3919.data-00000-of-00001" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3919.data-00000-of-00001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3919.index" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3919.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3919.meta" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3919.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3939.data-00000-of-00001" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3939.data-00000-of-00001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3939.index" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3939.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3939.meta" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3939.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3959.data-00000-of-00001" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3959.data-00000-of-00001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3959.index" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3959.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3959.meta" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3959.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3979.data-00000-of-00001" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3979.data-00000-of-00001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3979.index" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3979.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3979.meta" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3979.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3999.data-00000-of-00001" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3999.data-00000-of-00001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3999.index" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3999.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_lstm/lstm.model-3999.meta" afterPath="$PROJECT_DIR$/model_lstm/lstm.model-3999.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pic/lstm.png" afterPath="$PROJECT_DIR$/pic/lstm.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lstm.py" afterPath="$PROJECT_DIR$/lstm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pywavelet.py" afterPath="$PROJECT_DIR$/pywavelet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_csv.py" afterPath="$PROJECT_DIR$/read_csv.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,32 +131,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/log_dae$read_csv.coverage" NAME="read_csv Coverage Results" MODIFIED="1509892528532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/log_dae$read_csv.coverage" NAME="read_csv Coverage Results" MODIFIED="1509931956053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoencoder$autoencoder.coverage" NAME="autoencoder Coverage Results" MODIFIED="1509345899641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/log_dae$autoencoder.coverage" NAME="autoencoder Coverage Results" MODIFIED="1509867348474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/log_dae$de_log_insight.coverage" NAME="de_log_insight Coverage Results" MODIFIED="1509867187772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/log_dae$pywavelet.coverage" NAME="pywavelet Coverage Results" MODIFIED="1509893042105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/log_dae$lstm.coverage" NAME="lstm Coverage Results" MODIFIED="1509895515420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/log_dae$lstm.coverage" NAME="lstm Coverage Results" MODIFIED="1509949727576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="autoencoder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoencoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
-              <folding>
-                <element signature="e#64#95#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1710">
+              <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lstm.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lstm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lstm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="155" column="61" lean-forward="true" selection-start-line="155" selection-start-column="61" selection-end-line="155" selection-end-column="61" />
+            <state relative-caret-position="306">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="e#12#31#0" expanded="true" />
               </folding>
@@ -77,11 +162,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pywavelet.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pic/2016.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pic/2017.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lstm.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pic/lstm.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="denoised.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pic/denoised.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pywavelet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pywavelet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="774">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#23#41#0" expanded="true" />
               </folding>
@@ -92,7 +205,7 @@
       <file leaf-file-name="log-insight-2016.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log-insight-2016.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="-1008">
               <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
               <folding />
             </state>
@@ -102,7 +215,7 @@
       <file leaf-file-name="log-insight-2017.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log-insight-2017.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-3694">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -112,34 +225,10 @@
       <file leaf-file-name="read_csv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/read_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="711">
+              <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
               <folding>
                 <element signature="e#12#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="encoder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/encoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1388">
-              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding>
-                <element signature="e#23#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="de_log_insight.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de_log_insight.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding>
-                <element signature="e#23#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,10 +251,10 @@
       <list>
         <option value="$PROJECT_DIR$/encoder.py" />
         <option value="$PROJECT_DIR$/de_log_insight.py" />
-        <option value="$PROJECT_DIR$/read_csv.py" />
         <option value="$PROJECT_DIR$/autoencoder.py" />
-        <option value="$PROJECT_DIR$/lstm.py" />
         <option value="$PROJECT_DIR$/pywavelet.py" />
+        <option value="$PROJECT_DIR$/read_csv.py" />
+        <option value="$PROJECT_DIR$/lstm.py" />
       </list>
     </option>
   </component>
@@ -176,10 +265,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-6" />
-    <option name="width" value="1855" />
-    <option name="height" value="1086" />
+    <option name="x" value="255" />
+    <option name="y" value="105" />
+    <option name="width" value="1085" />
+    <option name="height" value="864" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -203,6 +292,11 @@
             <path>
               <item name="log_dae" type="b2602c69:ProjectViewProjectNode" />
               <item name="log_dae" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="log_dae" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log_dae" type="462c0819:PsiDirectoryNode" />
+              <item name="pic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,8 +421,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.lstm" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pywavelet" />
-        <item index="2" class="java.lang.String" itemvalue="Python.read_csv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.read_csv" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pywavelet" />
         <item index="3" class="java.lang.String" itemvalue="Python.autoencoder" />
         <item index="4" class="java.lang.String" itemvalue="Python.de_log_insight" />
       </list>
@@ -348,21 +442,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-6" width="1855" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13638814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38328236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1590214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39959225" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -388,7 +482,7 @@
         <state relative-caret-position="2250">
           <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
           <folding>
-            <element signature="e#64#95#0" expanded="true" />
+            <element signature="e#64#95#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -439,7 +533,7 @@
         <state relative-caret-position="1836">
           <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -449,7 +543,7 @@
         <state relative-caret-position="2142">
           <caret line="123" column="16" lean-forward="true" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -469,7 +563,7 @@
         <state relative-caret-position="2250">
           <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
           <folding>
-            <element signature="e#64#95#0" expanded="true" />
+            <element signature="e#64#95#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -494,7 +588,7 @@
         <state relative-caret-position="1836">
           <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -504,7 +598,7 @@
         <state relative-caret-position="2178">
           <caret line="125" column="24" lean-forward="false" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -524,7 +618,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#64#95#0" expanded="true" />
+            <element signature="e#64#95#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,7 +643,7 @@
         <state relative-caret-position="2106">
           <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -559,7 +653,7 @@
         <state relative-caret-position="702">
           <caret line="43" column="62" lean-forward="false" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,7 +663,7 @@
         <state relative-caret-position="1998">
           <caret line="115" column="34" lean-forward="false" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
           <folding>
-            <element signature="e#64#95#0" expanded="true" />
+            <element signature="e#64#95#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -579,7 +673,7 @@
         <state relative-caret-position="2178">
           <caret line="121" column="29" lean-forward="true" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -599,7 +693,7 @@
         <state relative-caret-position="324">
           <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -609,7 +703,7 @@
         <state relative-caret-position="72">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#64#95#0" expanded="true" />
+            <element signature="e#64#95#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -619,7 +713,7 @@
         <state relative-caret-position="810">
           <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -629,7 +723,7 @@
         <state relative-caret-position="72">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#64#95#0" expanded="true" />
+            <element signature="e#64#95#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -639,7 +733,7 @@
         <state relative-caret-position="486">
           <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,7 +743,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#64#95#0" expanded="true" />
+            <element signature="e#64#95#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,7 +753,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#64#95#0" expanded="true" />
+            <element signature="e#64#95#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -667,35 +761,9 @@
     <entry file="file://$PROJECT_DIR$/diff2.png" />
     <entry file="file://$PROJECT_DIR$/diff3.png" />
     <entry file="file://$PROJECT_DIR$/diff1.png" />
-    <entry file="file://$PROJECT_DIR$/log-insight-2016.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log-insight-2017.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lstm.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding>
-            <element signature="e#12#43#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diff.png">
@@ -703,22 +771,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoencoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
-          <folding>
-            <element signature="e#64#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1388">
           <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,27 +786,89 @@
         <state relative-caret-position="252">
           <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
-            <element signature="e#23#46#0" expanded="true" />
+            <element signature="e#23#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/matplotlib/backends/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+          <folding>
+            <element signature="e#12#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-insight-2017.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3694">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-insight-2016.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/2017.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/2016.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/denoised.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/lstm.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pywavelet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lstm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="155" column="61" lean-forward="true" selection-start-line="155" selection-start-column="61" selection-end-line="155" selection-end-column="61" />
+        <state relative-caret-position="306">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="e#12#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pywavelet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

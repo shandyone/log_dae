@@ -36,6 +36,8 @@ df1=pd.read_csv(f1)
 df2=pd.read_csv(f2)
 data1=np.array(df1['num'])
 data1=data1[::-1]
+day1=np.array(df1['time'])
+day1=day1[::-1]
 # print(len(data1))
 # plt.figure()
 # plt.plot(range(len(data1)),data1)
@@ -43,7 +45,16 @@ data1=data1[::-1]
 # plt.show()
 data2=np.array(df2['num'])
 data2=data2[::-1]
+day2=np.array(df2['time'])
+day2=day2[::-1]
+day=np.hstack((day1,day2))
 data=np.hstack((data1,data2))
+
+day_temp=[]
+for i in range(len(day)):
+    day_temp.append(day[i][0:10])
+day=np.array(day_temp)
+
 data = pywavelet.wavelet(data).wt()
 
 #normalize_data = (data-np.mean(data))/np.std(data)
@@ -51,3 +62,13 @@ normalize_data = (data-np.min(data))/(np.max(data)-np.min(data))
 data_max = np.max(data)
 data_min = np.min(data)
 #print normalize_data
+
+plt.figure()
+plt.plot(data1)
+plt.savefig('pic/2016.png')
+plt.close()
+
+plt.figure()
+plt.plot(data2)
+plt.savefig('pic/2017.png')
+plt.close()
