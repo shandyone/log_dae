@@ -16,10 +16,9 @@ batch_size=60
 input_size=1
 output_size=1
 lr=0.0006         #learning rate
-predict_day=7
+predict_day=1
 num_layers=4
-epoch=4000
-
+epoch=2000
 
 #-----------------------------train data------------------------------
 def train_data():
@@ -110,6 +109,7 @@ def train_lstm():
         #     saver.restore(sess,module_file)
         # except:
         #     sess.run(tf.global_variables_initializer())
+
         sess.run(tf.global_variables_initializer())
         for i in range(epoch):
             for step in range(len(batch_index)-2):
@@ -119,7 +119,7 @@ def train_lstm():
                 #print (i,loss_)
             print (i,loss_)
             if (i+1) % 20==0:
-                #print ("save_model:",saver.save(sess,'./model/stock2.model',global_step=i))
+                writer = tf.summary.FileWriter("logs/", sess.graph)
                 print "save_model:", saver.save(sess, 'model_lstm/lstm.model', global_step=i)
 
 #！！！！！！！！！！！！！！！！！！prediction model！！！！！！！！！！！！！！！！！！

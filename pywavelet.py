@@ -37,6 +37,7 @@ class wavelet:
             plt.figure()
             plt.plot(self.index_list)
             plt.plot(denoised_index)
+            plt.savefig('pic/denoised.png')
             plt.show()
         return denoised_index
 
