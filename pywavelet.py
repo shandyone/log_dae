@@ -18,7 +18,6 @@ class wavelet:
         self.plot = plot
 
     def wt(self):
-        # 分解
         coeff = pywt.wavedec(self.index_list, self.wavefunc, mode='sym', level=self.lv)
         sgn = lambda x: 1 if x > 0 else -1 if x < 0 else 0
         # denoising
