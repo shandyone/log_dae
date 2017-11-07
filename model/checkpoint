@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 model_checkpoint_path: "/home/zshang/Pycharm/log_dae/model/dae.model"
 all_model_checkpoint_paths: "/home/zshang/Pycharm/log_dae/model/dae.model"
+=======
+model_checkpoint_path: "dae.model"
+all_model_checkpoint_paths: "dae.model"
+>>>>>>> fbe8d34eae8a264e37821c4f720393b81258c6a7
