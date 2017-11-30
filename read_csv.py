@@ -2,10 +2,8 @@
 from __future__ import division
 import pandas as pd
 import numpy as np
-<<<<<<< HEAD
-=======
+
 import pywavelet
->>>>>>> fbe8d34eae8a264e37821c4f720393b81258c6a7
 
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -25,8 +23,6 @@ import tensorflow as tf
 # normalize_data_test=(data_test-np.mean(data_test))/np.std(data_test)  #normalization
 # normalize_data_test=normalize_data_test[:,np.newaxis]       #add axis
 
-<<<<<<< HEAD
-=======
 #-----------------------stock-------------------
 # f=open('dataset.csv')
 # df=pd.read_csv(f)     #read data
@@ -35,18 +31,16 @@ import tensorflow as tf
 # train_end,test_begin=5800,5800
 
 #-----------------------log-insight---------------
->>>>>>> fbe8d34eae8a264e37821c4f720393b81258c6a7
+
 f1=open('log-insight-2016.csv')
 f2=open('log-insight-2017.csv')
 df1=pd.read_csv(f1)
 df2=pd.read_csv(f2)
 data1=np.array(df1['num'])
 data1=data1[::-1]
-<<<<<<< HEAD
-=======
 day1=np.array(df1['time'])
 day1=day1[::-1]
->>>>>>> fbe8d34eae8a264e37821c4f720393b81258c6a7
+
 # print(len(data1))
 # plt.figure()
 # plt.plot(range(len(data1)),data1)
@@ -54,10 +48,9 @@ day1=day1[::-1]
 # plt.show()
 data2=np.array(df2['num'])
 data2=data2[::-1]
-<<<<<<< HEAD
+
 data=np.hstack((data1,data2))
 
-=======
 day2=np.array(df2['time'])
 day2=day2[::-1]
 day=np.hstack((day1,day2))
@@ -70,15 +63,15 @@ day=np.array(day_temp)
 
 data = pywavelet.wavelet(data).wt()
 
->>>>>>> fbe8d34eae8a264e37821c4f720393b81258c6a7
+
 #normalize_data = (data-np.mean(data))/np.std(data)
 normalize_data = (data-np.min(data))/(np.max(data)-np.min(data))
 data_max = np.max(data)
 data_min = np.min(data)
-<<<<<<< HEAD
+
 print normalize_data
 #print normalize_data
-=======
+
 #print normalize_data
 
 plt.figure()
@@ -90,4 +83,4 @@ plt.figure()
 plt.plot(data2)
 plt.savefig('pic/2017.png')
 plt.close()
->>>>>>> fbe8d34eae8a264e37821c4f720393b81258c6a7
+
